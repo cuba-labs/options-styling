@@ -1,0 +1,20 @@
+/* Define your theme modifications inside next mixin */
+@mixin com_company_demo-halo-ext {
+  .v-filterselect-item-client-red {
+    .v-icon {
+      color: red;
+    }
+  }
+
+  .v-filterselect-item-client-blue {
+    .v-icon {
+      color: blue;
+    }
+  }
+
+  .v-filterselect-item-client-green {
+    .v-icon {
+      color: green;
+    }
+  }
+}
